@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="154491ed-7de0-4f1d-85ff-883360dd5a64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/rentals.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/header.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/header.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/rentals.ftl" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -78,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/header.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="70" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="70" />
+            <state relative-caret-position="266">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -489,8 +490,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="230" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="227" />
     <option name="y" value="23" />
     <option name="width" value="843" />
     <option name="height" value="694" />
@@ -594,9 +595,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546201526201" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546201568521" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -631,15 +638,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546137786492</updated>
-      <workItem from="1546137789540" duration="1235000" />
+      <workItem from="1546137789540" duration="1522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1235000" />
+    <option name="totallyTimeSpent" value="1522000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="23" width="843" height="694" extended-state="0" />
+    <frame x="227" y="23" width="843" height="694" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -648,7 +655,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496879" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32890365" />
       <window_info anchor="bottom" id="Spring" />
@@ -660,7 +667,7 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32890365" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32890365" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -711,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/header.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="70" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="70" />
+        <state relative-caret-position="266">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>
