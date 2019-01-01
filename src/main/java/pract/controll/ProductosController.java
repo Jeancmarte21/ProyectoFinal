@@ -20,7 +20,7 @@ public class ProductosController {
     public String get(Model model) {
         model.addAttribute("equipos", servicioEquipo.findAll());
 
-        return "equip";
+        return "productos";
     }
 
     @Secured({"Administrador"})

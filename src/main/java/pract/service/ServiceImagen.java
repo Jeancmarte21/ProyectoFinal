@@ -2,8 +2,8 @@ package pract.service;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import pract.model.Photo;
+import pract.model.Imagen;
 
 @Repository
-public interface ServicePhoto extends JpaRepository<Photo, Long> {
+public interface ServiceImagen extends JpaRepository<Imagen, Long> {
 }

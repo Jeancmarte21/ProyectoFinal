@@ -7,7 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import pract.service.ServiceCustom;
-import pract.service.ServiceEquip;
+import pract.service.ServiceProductos;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ public class IndexController {
     private ServiceCustom servicioCliente;
 
     @Autowired
-    private ServiceEquip servicioEquipo;
+    private ServiceProductos servicioEquipo;
 
 
     @RequestMapping(value = "/index", method = RequestMethod.GET)

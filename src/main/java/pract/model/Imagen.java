@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 @Entity
 @Table
-public class Photo implements Serializable{
+public class Imagen implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -13,7 +13,7 @@ public class Photo implements Serializable{
     @Lob
     private byte[] data;
 
-    public Photo() {
+    public Imagen() {
     }
 
     public long getId() {
