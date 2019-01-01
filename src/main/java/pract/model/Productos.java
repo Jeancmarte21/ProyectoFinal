@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 @Entity
 @Table
-public class Equip implements Serializable {
+public class Productos implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -15,7 +15,7 @@ public class Equip implements Serializable {
     private double costoAlquilerPorDia;
     private boolean entregado;
 
-    public Equip() {
+    public Productos() {
     }
 
 

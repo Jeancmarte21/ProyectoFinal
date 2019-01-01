@@ -7,14 +7,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import pract.model.Equip;
-import pract.service.ServiceEquip;
+import pract.model.Productos;
+import pract.service.ServiceProductos;
 
 @Controller
-public class EquipController {
+public class ProductosController {
 
     @Autowired
-    private ServiceEquip servicioEquipo;
+    private ServiceProductos servicioEquipo;
 
     @RequestMapping(value = "/equipos", method = RequestMethod.GET)
     public String get(Model model) {
@@ -29,7 +29,7 @@ public class EquipController {
                         @RequestParam(name = "nombre") String nombre,
                         @RequestParam(name = "cantidadexistencia") int cantidadExistencia,
                        @RequestParam(name = "costoalquilerpordia") int costoAlquilerPorDia) {
-        Equip equipo = new Equip();
+        Productos equipo = new Productos();
         equipo.setCodigo(codigo);
         equipo.setNombre(nombre);
         equipo.setCantidadExistencia(cantidadExistencia);
