@@ -7,9 +7,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
 @EnableJpaRepositories
-public class Practica10Application {
+public class ProyectoApplication {
 
 	public static void main(String[] args) {
-        SpringApplication.run(Practica10Application.class, args);
+        SpringApplication.run(ProyectoApplication.class, args);
     }
 }
