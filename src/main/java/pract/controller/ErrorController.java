@@ -1,4 +1,4 @@
-package pract.controll;
+package pract.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

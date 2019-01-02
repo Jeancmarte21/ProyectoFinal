@@ -25,6 +25,7 @@ repositories {
 
 
 dependencies {
+    compile ('org.grails.plugins:paypal-payments:0.1.0')
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('org.springframework.boot:spring-boot-starter-freemarker')
     compile('org.springframework.boot:spring-boot-starter-security')

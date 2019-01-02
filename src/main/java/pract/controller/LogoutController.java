@@ -1,4 +1,4 @@
-package pract.controll;
+package pract.controller;
 
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;

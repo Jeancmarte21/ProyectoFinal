@@ -1,4 +1,4 @@
-package pract.controll;
+package pract.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import pract.model.Custom;
-import pract.model.Photo;
+import pract.model.Imagen;
 import pract.service.ServiceCustom;
 
 import javax.validation.ConstraintViolation;
@@ -40,7 +40,7 @@ public class CustomController {
             @RequestParam(value = "foto") MultipartFile foto,
             Model model
     ) throws Exception {
-        Photo f = new Photo();
+        Imagen f = new Imagen();
         f.setNombre(foto.getOriginalFilename());
         f.setData(foto.getBytes());
 

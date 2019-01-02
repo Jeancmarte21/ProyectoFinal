@@ -1,4 +1,4 @@
-package pract.controll;
+package pract.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;

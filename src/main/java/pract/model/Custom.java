@@ -17,7 +17,7 @@ public class Custom implements Serializable {
     @NotEmpty(message = "Cedula no puede estar vacia.")
     private String cedula;
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    private Photo foto;
+    private Imagen foto;
 
     public Custom() {
     }
@@ -46,11 +46,11 @@ public class Custom implements Serializable {
         this.cedula = cedula;
     }
 
-    public Photo getFoto() {
+    public Imagen getFoto() {
         return foto;
     }
 
-    public void setFoto(Photo foto) {
+    public void setFoto(Imagen foto) {
         this.foto = foto;
     }
 

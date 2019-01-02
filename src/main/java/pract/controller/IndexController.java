@@ -1,4 +1,4 @@
-package pract.controll;
+package pract.controller;
 
 import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
