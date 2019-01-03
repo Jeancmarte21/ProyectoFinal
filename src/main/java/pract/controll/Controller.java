@@ -1,4 +1,4 @@
-package pract.controller;
+package pract.controll;
 
 public @interface Controller {
 }
